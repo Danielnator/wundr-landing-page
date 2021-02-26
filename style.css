@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.container-fluid{
+  padding: 5% 12%;
+}
+
+.showcase .container-fluid {
+  padding: 3% 15%;
+}
+
+#nav-bar-title {
+  vertical-align:middle;
+  display:inline-block;
+  margin-left: 10px;
+}
+
+#title-text {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-top: 20
+}
+
+.Logo {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  vertical-align:middle
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 80%;
+  position: static;
+}
+
+
+.motivation-text-box {
+  background-color: #F8F8F6;
+  font-size: 25px;
+  line-height: 50px;
+  padding: 4% 6%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .screenshot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .screenshot-text {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+}
+
+.fade {
+  opacity: 1;
+}
+
+
+.footer {
+  padding: 2% 5%;
+}
+
+.footer-link {
+  color: black;
+}
+
+
+
+.about-page {
+  background-color: white;
+}
+
+.about-text{
+  margin: 5% 5%;
+  background-color: #F8F8F6;
+  border-radius: 5px;
+  padding: 40px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 35px;
+}
